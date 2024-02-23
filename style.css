@@ -4,25 +4,38 @@
 }
 
 .container {
-    width: 100vm;
+    position:inherit;
+    width: 90%;
+    
+   
+}
+    /*width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgb(0 0 0 /2.5),rgb(0 0 0 /0.5)),url(/portada/sistema-html-diseno-collages-sitios-web.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
+
+
+.imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    
 }
 
 h1 {
-    padding-bottom: 125%;
-    width: 100%;
+    width: 80%;
     font-family:"Inter";
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    color:hsl(66, 100%, 50%);
-    padding-left: 10%;
+    color:hwb(180 3% 96%);
+    padding-left: 15%;
+    text-align: center;
 }
 
 .texto {
@@ -38,12 +51,12 @@ h1 {
     font-size: 32px;
     line-height: 150%;
     background-color: #0a0a0a00;
-    color: #d8dfe8;
+    color: #161515;
     cursor:grab;
 }
 
 .texto::placeholder {
-    color: #e5e90d;
+    color: #e91c0d;
 }
 
 .texto:focus, .texto:active{
@@ -69,7 +82,7 @@ h1 {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #eff8f8;
+    color: hsl(0, 0%, 4%);
     opacity: 0.8;
     flex: none;
     order: 1;
@@ -194,7 +207,7 @@ h1 {
     font-size: 30px;
     line-height: 120%;
     text-align: center;
-    color: #1be4b2;
+    color: #0f0f0e;
 }
 
 .mensaje-encriptado p {
@@ -205,7 +218,7 @@ h1 {
     font-size: 20px;
     line-height: 150%;
     text-align: center;
-    color: #c7f108;
+    color: #020201;
 }
 
 .encriptado img {
