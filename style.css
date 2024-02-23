@@ -9,15 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(0 0 0 /2.5),rgb(0 0 0 /0.5)),url(/portada/sistema-html-diseno-collages-sitios-web.jpg);
+    background:url(/portada/sistema-html-diseno-collages-sitios-web.jpg);
     background-size: cover;
     background-position: center;
 }
 
 h1 {
-    padding-bottom: 130%;
-    color: #e6f0e0;
-    width: 100%;
+    padding-bottom: 700px;
+    width: auto;
     height: 100%;
     text-align: center;
     top: 10%;
