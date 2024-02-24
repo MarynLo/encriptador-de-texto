@@ -162,9 +162,9 @@ h1 {
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 86%;
+    height: 88%;
     left: 65%;
-    top: 7%;
+    top: 10%;
     background: #81e7c023;
     box-shadow: 20px 30px 32px -8px rgba(57, 112, 156, 0.404);
     border-radius: 32px;
@@ -179,7 +179,7 @@ h1 {
     gap: 16px;
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 60%;
     text-align: center;
 
 }
@@ -236,6 +236,7 @@ h1 {
         left: 15px;
         top: 10%;
         font-size: 15px;
+        border-radius: 8px;
     }
     .terminos {
         width: 90%;
