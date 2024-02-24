@@ -3,6 +3,13 @@ function encriptar() {
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
     let muñeco = document.getElementById("muñeco");
+
+    //Verifica si hay letras mayusculas//
+
+    if(/[A-Z]|\W/.test(texto)) {
+        swal("No se permiten letras mayusculas ni caracteres especiales.");
+        return;
+    }
     
     let textoCifrado = texto
         .replace(/e/gi, "enter")
@@ -16,6 +23,7 @@ function encriptar() {
       tituloMensaje.textContent = "Texto encriptado con éxito";
       parrafo.textContent = "";
       muñeco.src = "./imagenes/inspector1.png";
+     
 
     } else {
       muñeco.src = "./imagenes/muñeco.png";
@@ -24,6 +32,7 @@ function encriptar() {
     swal("Ooops!", "Debes ingresar un texto", "warning");
     }
 }
+    
 
 function desencriptar() {
     let texto = document.getElementById("texto").value;
